@@ -249,6 +249,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -263,7 +267,11 @@
               "target": "Package",
               "version": "[2.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameWorkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameWorkCore.Abstractions": {
               "target": "Package",
               "version": "[3.1.2, )"
             },
