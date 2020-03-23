@@ -1,0 +1,9 @@
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\bin\Debug\netstandard2.0\Dominios.deps.json
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\bin\Debug\netstandard2.0\Dominios.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\bin\Debug\netstandard2.0\Dominios.pdb
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\obj\Debug\netstandard2.0\Dominios.csprojAssemblyReference.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\obj\Debug\netstandard2.0\Dominios.csproj.CoreCompileInputs.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\obj\Debug\netstandard2.0\Dominios.AssemblyInfoInputs.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\obj\Debug\netstandard2.0\Dominios.AssemblyInfo.cs
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\obj\Debug\netstandard2.0\Dominios.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Dominios\obj\Debug\netstandard2.0\Dominios.pdb

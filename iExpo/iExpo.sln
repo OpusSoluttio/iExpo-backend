@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicos", "Servico\Servico
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.XUnit", "Teste.XUnit\Teste.XUnit.csproj", "{FFF95BA5-CDB8-46EC-8FDF-CDFAEFB91FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{BCACEEF7-C48C-4C08-A18B-FEA90F20C208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{BCACEEF7-C48C-4C08-A18B-FEA90F20C208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

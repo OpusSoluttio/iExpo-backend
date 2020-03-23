@@ -1,0 +1,15 @@
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Infra.Data.deps.json
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Infra.Data.runtimeconfig.json
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Infra.Data.runtimeconfig.dev.json
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Infra.Data.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Infra.Data.pdb
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Dominios.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\bin\Debug\netcoreapp2.1\Dominios.pdb
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.csprojAssemblyReference.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.AssemblyInfo.cs
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.csproj.CopyComplete
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.pdb
+C:\Users\Raul\Desktop\Opus\iExpo\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.genruntimeconfig.cache
