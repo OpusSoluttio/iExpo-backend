@@ -70,7 +70,5 @@ namespace WebApi.Controllers
                 return BadRequest(new { sucesso = false, mensagem = ex.Message });
             }
         }
-
-
     }
 }

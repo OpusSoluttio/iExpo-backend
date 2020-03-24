@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhIU4HkXEoq6Qxk/xw6KUdogjfllFs3jkMtyVF+GHqu8J8gooNN2sBwJOSZjMEq6hgMytr4uM7HOWHd6x5UeVg==",
+  "dgSpecHash": "SW3Mv9obP+J1ouwoS/leYVwe7KcINxdw3LXz6RZ4WhjtDRf1fUnoyH66qvU4XX67e6tlXT/UAWX+O5KA81Xizg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raul\\Desktop\\Opus\\iExpo\\Dominios\\Dominios.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],

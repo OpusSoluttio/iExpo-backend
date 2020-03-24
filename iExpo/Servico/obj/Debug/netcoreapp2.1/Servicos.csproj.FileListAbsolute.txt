@@ -1,0 +1,9 @@
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\bin\Debug\netcoreapp2.1\Servicos.deps.json
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\bin\Debug\netcoreapp2.1\Servicos.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\bin\Debug\netcoreapp2.1\Servicos.pdb
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\obj\Debug\netcoreapp2.1\Servicos.csprojAssemblyReference.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\obj\Debug\netcoreapp2.1\Servicos.csproj.CoreCompileInputs.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\obj\Debug\netcoreapp2.1\Servicos.AssemblyInfoInputs.cache
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\obj\Debug\netcoreapp2.1\Servicos.AssemblyInfo.cs
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\obj\Debug\netcoreapp2.1\Servicos.dll
+C:\Users\Raul\Desktop\Opus\iExpo\Servico\obj\Debug\netcoreapp2.1\Servicos.pdb
