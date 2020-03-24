@@ -30,9 +30,6 @@ namespace WebApi
                .SetCompatibilityVersion(
                Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
-
-            //services.AddDbContext<LojaAAPMContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = "JwtBearer";
@@ -51,15 +48,15 @@ namespace WebApi
                 };
             });
 
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1",
-            //    new Swashbuckle.AspNetCore.Swagger.Info
-            //    {
-            //        Title = "OpFlix API",
-            //        Version = "v1"
-            //    });
-            //});
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1",
+                new Swashbuckle.AspNetCore.Swagger.Info
+                {
+                    Title = "OpFlix API",
+                    Version = "v1"
+                });
+            });
 
             services.AddCors(options =>
             {
@@ -72,8 +69,8 @@ namespace WebApi
 
             services.AddScoped<iExpoContext>();
             services.AddScoped<ILogin, LoginRepositorio>();
-            //services.AddScoped<IProduto, ProdutosRepositorio>();
-            //services.AddScoped<IPedidos, PedidosRepositorio>();
+            services.AddScoped<ISensores, SensorRepositorio>();
+            //services.AddScoped<I, Repositorio>();
 
 
         }
@@ -92,11 +89,11 @@ namespace WebApi
 
             app.UseMvc();
 
-            //app.UseSwagger();
-            //app.UseSwaggerUI(c =>
-            //{
-            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            //});
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
         }
     }
