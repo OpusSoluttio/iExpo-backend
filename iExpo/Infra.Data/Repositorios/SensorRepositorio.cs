@@ -49,7 +49,17 @@ namespace Infra.Data.Repositorios
 
         public Sensores Alterar(Sensores sensor)
         {
-            throw new NotImplementedException();
+            try
+            {
+
+                _context.Sensores.Update(sensor);
+                _context.SaveChanges();
+                return sensor;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         public Sensores AlterarStatus(int IdSensor)

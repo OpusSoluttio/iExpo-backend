@@ -45,7 +45,6 @@ namespace WebApi.Controllers
 
                 var claims = new[]
                 {
-                    // email
                     new Claim(JwtRegisteredClaimNames.Email, Usuario.Email),
                 };
 
@@ -70,5 +69,6 @@ namespace WebApi.Controllers
                 return BadRequest(new { sucesso = false, mensagem = ex.Message });
             }
         }
+
     }
 }

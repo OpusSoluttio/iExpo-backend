@@ -61,5 +61,27 @@ namespace WebApi.Controllers
         }
 
 
+        /// <summary>
+        /// Atualiza os dados de um Sensor, há de estar logado como admin para realizar tal função
+        /// </summary>
+        /// <param name="sensor">Recebe o sensor com os dados à serem atualizadas</param>
+        /// <param name="id">Recebe o Id da categoria à ser alterada</param>
+        /// <returns>Caso haja sucesso no registro retorna Ok, caso não, retorna BadRequest</returns>
+        [HttpPut("{id}")]
+        public IActionResult Alterar(Sensores sensor, int id)
+        {
+            sensor.Id = id;
+            try
+            {
+                _sensorRepositorio.Alterar(sensor);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { mensagem = "Ocorreu um erro " + ex });
+            }
+        }
+
+
     }
 }
