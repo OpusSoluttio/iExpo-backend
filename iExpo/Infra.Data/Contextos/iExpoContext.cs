@@ -10,6 +10,11 @@ namespace Infra.Data.Contextos
 
         public DbSet<Usuarios> Usuarios { get; set; }
 
+        public DbSet<Eventos> Eventos { get; set; }
+
+        public DbSet<Alas> Alas { get; set; }
+        public DbSet<Grupos> Grupos { get; set; }
+
 
         public iExpoContext()
         {

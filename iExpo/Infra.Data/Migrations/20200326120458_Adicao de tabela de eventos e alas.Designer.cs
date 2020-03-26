@@ -4,14 +4,16 @@ using Infra.Data.Contextos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Infra.Data.Migrations
 {
     [DbContext(typeof(iExpoContext))]
-    partial class iExpoContextModelSnapshot : ModelSnapshot
+    [Migration("20200326120458_Adicao de tabela de eventos e alas")]
+    partial class Adicaodetabeladeeventosealas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,50 +85,6 @@ namespace Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Eventos");
-                });
-
-            modelBuilder.Entity("Dominios.Classes.Grupos", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("AlaId");
-
-                    b.Property<string>("Descricao")
-                        .IsRequired()
-                        .HasColumnName("Descricao")
-                        .HasColumnType("varchar(255)");
-
-                    b.Property<string>("Foto")
-                        .IsRequired()
-                        .HasColumnName("Foto")
-                        .HasColumnType("text");
-
-                    b.Property<int>("IdAla")
-                        .HasColumnName("IdAla")
-                        .HasColumnType("int");
-
-                    b.Property<string>("NomeEmpresa")
-                        .IsRequired()
-                        .HasColumnName("NomeEmpresa")
-                        .HasColumnType("varchar(255)");
-
-                    b.Property<string>("NomeGrupo")
-                        .IsRequired()
-                        .HasColumnName("NomeGrupo")
-                        .HasColumnType("varchar(255)");
-
-                    b.Property<string>("NomeProjeto")
-                        .IsRequired()
-                        .HasColumnName("NomeProjeto")
-                        .HasColumnType("varchar(255)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AlaId");
-
-                    b.ToTable("Grupos");
                 });
 
             modelBuilder.Entity("Dominios.Classes.Sensores", b =>
@@ -203,13 +161,6 @@ namespace Infra.Data.Migrations
                     b.HasOne("Dominios.Classes.Sensores", "Sensor")
                         .WithMany()
                         .HasForeignKey("SensorId");
-                });
-
-            modelBuilder.Entity("Dominios.Classes.Grupos", b =>
-                {
-                    b.HasOne("Dominios.Classes.Alas", "Ala")
-                        .WithMany()
-                        .HasForeignKey("AlaId");
                 });
 #pragma warning restore 612, 618
         }

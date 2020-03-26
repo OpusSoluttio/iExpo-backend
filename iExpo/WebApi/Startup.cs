@@ -53,7 +53,7 @@ namespace WebApi
                 c.SwaggerDoc("v1",
                 new Swashbuckle.AspNetCore.Swagger.Info
                 {
-                    Title = "OpFlix API",
+                    Title = "iExpo API",
                     Version = "v1"
                 });
             });
